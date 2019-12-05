@@ -1,0 +1,33 @@
+.formLogin{
+    height          : 60% !important;
+    background-color: #006B43;
+}
+.logo-if{
+    padding-top: 3%;
+    width      : 400px;
+}
+.login-triangle {
+    width           : 0;
+    margin-right    : auto;
+    margin-left     : auto;
+    border          : 12px solid transparent;
+    border-top-color: white;
+}
+
+.linhaForm{
+    margin-bottom: 3%;
+}
+.esqueceu-senha{
+    text-decoration: none;
+    color          : white;
+    font-size      : 20px;
+}
+.informacoes{
+    color   : white;
+    position: absolute;
+    bottom  : 5%;
+    width   : 100%;
+}
+.botaoEnviar{
+    background-color: transparent; color: white;  border: 1px solid white;
+}

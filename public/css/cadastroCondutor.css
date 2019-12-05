@@ -1,0 +1,136 @@
+#butons {
+    text-align: right !important;
+    /* margin-top: 3% !important; */
+}
+
+.butonsCadastro {
+    margin-top: 3% !important;
+}
+
+#campo_pesquisa {
+    border-radius: .28571429rem !important;
+}
+
+#imagem_pessoa {
+    max-width: 100%;
+    width: 1000px;
+    height: 284px;
+    object-fit: cover;
+}
+
+#cardVeiculosCadastrar {
+    width: 33.33333333% !important;
+}
+
+#cardVeiculos {
+    width: 100% !important;
+}
+
+#btn-apagarCard {
+    margin: 0 auto;
+    text-align: center;
+    display: block
+}
+
+#tabRegistro_paginate {
+    float: right !important;
+}
+
+.img_veiculo {
+    max-width: 100% !important;
+    width: 1000px !important;
+    height: 284px !important;
+    object-fit: cover !important;
+}
+
+.texto {
+    /* margin-bottom: -1.5rem; */
+    font-size: 25px !important;
+}
+
+.transition .item {
+    color: rgba(0, 0, 0, .95) !important;
+}
+
+span#msg_erros {
+    color: #9f3a38;
+    font-size: 10px;
+    margin-bottom: 0%;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+#imagem_pessoa {
+    max-width: 100%;
+    width: 455px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 5px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #006944;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+.inputsFormVeiculo {
+    padding-bottom: 15px;
+}
+
+#imagem_veiculo {
+    max-width: 100%;
+    width: 395px;
+    height: 243px;
+    object-fit: cover;
+}
+
+/* 
+#Device = Most of the Smartphones Mobiles (Portrait)
+#Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #imagem-pessoa {
+        max-width: 100%;
+        width: 395px;
+        height: 250px;
+        object-fit: cover;
+    }
+}

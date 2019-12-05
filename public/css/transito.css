@@ -1,0 +1,179 @@
+.card:hover {
+    cursor: pointer !important;
+}
+
+#TransitomessageVeiculos {
+    width: 100% !important;
+    margin: 1% 2% 2% 2% !important;
+}
+
+.ui.card {
+    margin: 0em 0 !important;
+}
+
+#cardVeiculosNaoCadastrado {
+    width: 33.33333333% !important;
+}
+
+#imgIconVeiculo {
+    position: absolute;
+    z-index: 1;
+    max-width: 45% !important;
+    width: 100%;
+    object-fit: cover !important;
+    left: 55% !important;
+    bottom: 34% !important;
+}
+
+.margins-transito {
+    margin-bottom: 3% !important;
+}
+
+#veiculos {
+    margin-top: -3rem;
+}
+
+.veiculosRem {
+    margin-top: 1rem !important;
+}
+
+#checkbox_transito {
+    float: right;
+}
+
+#label_veiculo {
+    float: right;
+    position: relative;
+    top: 34px;
+    right: 56px;
+}
+
+.ui.form .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled {
+    opacity: inherit !important;
+}
+
+#card_foto_condutor {
+    width: 100% !important;
+}
+
+#div_checkbox_veiculos {
+    float: right;
+    position: relative;
+    bottom: 39px;
+    left: 15px;
+}
+
+.img_carro {
+    max-width: 100% !important;
+    width: 395px !important;
+    height: 250px !important;
+    object-fit: cover !important;
+}
+
+#img_transito_condutor {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.ui.column.grid>[class*="four wide"].column, .ui.grid>.column.row>[class*="four wide"].column, .ui.grid>.row>[class*="four wide"].column, .ui.grid>[class*="four wide"].column {
+    width: 29%!important;
+}
+
+#tab_ultimos_condu {
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    margin-top: -2%;
+}
+
+#ssss {
+    margin: 50% !important;
+}
+
+#tab_ultimos_condu th {
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(34, 36, 38, .15);
+    background: white;
+    padding: 0;
+}
+
+#tab_ultimos_condu td {
+    padding: 3px;
+}
+
+#tab_ultimos_condu:before {
+    content: "-";
+    display: block;
+    line-height: 5px;
+    color: transparent;
+}
+
+#tab_ultimos_condu tr:nth-child(odd) {
+    background-color: #CFDFDA;
+    height: 2.2rem;
+    
+},
+tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+    '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+},
+plotOptions: {
+    column: {
+        pointPadding: 0.2,
+        borderWidth: 0
+    }
+},
+},
+tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+    '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+},
+plotOptions: {
+    column: {
+        pointPadding: 0.2,
+        borderWidth: 0
+    }
+},height: 2.2rem;
+
+
+@media only screen and (max-width: 767px) {
+    .ui.table:not(.unstackable) tr {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 370px) {
+    #h2_veiculos {
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 370px) and (max-width: 767px) {
+    #h2_veiculos {
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 400px) {
+    #h2_veiculos {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+    #label_veiculo {
+        top: 27px;
+    }
+}
